@@ -1,22 +1,3 @@
-## Blibliotecas
----
-dev  
-  - typescript  
-  - tsx  
-  - @types/node  
-  - eslint  
-  - @rocketseat/eslint-config  
-  - vitest  
-  - supertest  
-  - @types/supertest  
-  - tsup
-
-prod  
-  - knex  
-  - sqlite3  
-  - dotenv  
-  - zod  
-  - @fastify/cookie
 
 ---
 # RF
@@ -30,4 +11,27 @@ prod
 
 - [ x ] A transação pode ser do tipo crédito que somará ao valor total ou débito subtraiŕa;
 - [ x ] Deve ser possível identificar o usuário entre as requisições;
-- [ x ] O usuário só pode visualizar transações o qual ele crieou;
+- [ x ] O usuário só pode visualizar transações o qual ele crieou;     
+
+---
+## Blibliotecas
+
+dev  
+-
+  - typescript  
+  - tsx  
+  - @types/node  
+  - eslint  
+  - @rocketseat/eslint-config  
+  - vitest  
+  - supertest  
+  - @types/supertest  
+  - tsup
+
+prod 
+- 
+  - knex  
+  - sqlite3  
+  - dotenv  
+  - zod  
+  - @fastify/cookie
